@@ -220,9 +220,10 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-  }
   
-  .btn-modal:focus {
+  
+  &:focus {
     background-color: #188CE8;
     color: $white-text-color;
   }
+}
