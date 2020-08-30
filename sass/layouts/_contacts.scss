@@ -1,0 +1,52 @@
+.contacts-nav{
+    margin-left: auto;
+}
+
+.contacts-nav .item{
+    margin-right: 30px;
+}
+
+.contacts-nav .item:last-child{
+    margin-right: 0;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contacts-nav{
+    display: flex;
+}
+
+.site-nav .item{
+    margin-right: 50px;
+    padding: 0px;
+}
+.link.current{
+    color:$accent-text-color;
+}
+
+.contacts-nav>li>a{
+    color:$secondary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.85;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        color:$accent-text-color;
+    }
+    
+    &:focus{
+        color:$accent-text-color;
+    }
+}
+
+
+.icon-svg{
+    margin-right: 10px;
+    fill: currentColor;
+}

@@ -1,0 +1,75 @@
+.command-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
+    background-color: #F5F4FA;
+   
+}
+.conteiner.command{
+    background-color: #F5F4FA;
+}
+
+.command-section-list{
+    display: flex;
+    justify-content: space-between;
+}
+.command-list{
+    background-color: #FFFFFF;
+    display: block;
+    width: calc((100%-90px) / 4);
+    margin-right: 30px;
+  
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list{
+    margin-right: 10px;
+}
+
+.command-name{
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 0.84;
+ text-align: center;
+ margin-top: 30px;
+ margin-bottom: 10px;
+}
+
+.description{
+ color: $secondary-text-color;   
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 0.84;
+ text-align: center;
+}
+.linc-social{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    fill: #afb1b8;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
+     &:hover{
+        border-radius: 50%;
+        background-color: $accent-text-color;
+        fill: $white-text-color;
+     }
+  }
+  
+       
+  
